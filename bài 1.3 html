@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            .cot-trai{
+                            background-color: rgb(94, 134, 106);   /*phông màu*/
+                            color: black;       /*màu chữ*/
+                            border: 2px solid black;    /*viền đen*/
+                            padding: 2px; /* tạo khoảng cách cho chữ ko sát viền*/
+                            display: inline-block; 
+                            height: 500px;
+                        }
+            .cot-giua{
+                            background-color: white;
+                            width: 568px;           /* Độ rộng cho phần thông tin */
+                            padding: 15px;
+                            border: 2px solid black;
+                            display: inline-block;  /* Nằm cạnh cột bên trái */
+                            vertical-align: top;
+                            margin-left: -5px;      /* Mẹo nhỏ để 2 cột khít sát nhau */
+                            height: 474px;
+                        } 
+            th,td{
+                border-style: none;
+            }
+            .cot-phai{
+                 background-color: rgb(187, 113, 165);   /*phông màu*/
+                            color: black;       /*màu chữ*/
+                            border: 2px solid black;    /*viền đen*/
+                            padding: 2px; /* tạo khoảng cách cho chữ ko sát viền*/
+                            display: inline-block; 
+                            height: 500px;
+                            margin-left: -5px;        /* Để khít sát vào cột giữa */
+                            vertical-align: top;      /* Giúp nó thẳng hàng từ trên cùng */
+                            width: 199.5px;
+                           
+            }
+            .chan-trang{
+                background-color: #ffffcc; /* Màu vàng nhạt giống mẫu */
+                width: 960px;             /* Độ rộng bằng với cái ảnh banner đầu trang */
+                border: 2px solid black;  /* Viền đen mỏng */
+                padding: 15px 0;          /* Khoảng cách trên dưới cho chữ thoáng */
+                text-align: center;       /* Lệnh quan trọng để chữ nhảy ra chính giữa */
+                clear: both;              /* Đảm bảo nó nằm dưới cùng, không bị các cột đè lên */
+
+            }           
+
+        </style>
+    </head>
+    <body>
+       <div>
+            <div >
+            <img src="c:\Users\ACER\Downloads\anh-nen-cau-be-but-chi-shin-cute-nhat_101719649.jpg" height="248px" width="960px " >
+            </div>
+            <!--phần đầu trang head-->
+            <div >
+                <div> <!--phần giữa-->
+                   
+                    <div class="cot-trai">  <!--cột trái -->
+                        <h2>TRANG CHỦ</h2>  
+                        <ul>
+                            
+                            <li>Chơi free fire</li>
+                            <li>Xem Phim</li>
+                            <li>Xem tik tok</li>
+                        </ul>
+                        <h2>TÌNH YÊU</h2>
+                        <ul style="list-style-type: circle;">
+                            <li> Mầu hồng </li>
+                            <li> Mầu hồng  </li>
+                            <li> Mầu hồng </li>
+                        </ul>
+                    </div>
+                        <div class="cot-giua">
+                            <h2 STYLE=" text-align: center;">THÔNG TIN CÁ NHÂN</h2>
+                            <img src="c:\Users\ACER\Downloads\e524fdb828f9ea53a42a3a9fbdd91377.jpg" alt="ảnh thẻ" height="250px" width="200px"
+                            style="float: left; margin-right: 20px;"> <!--float:left(ảnh dạt sang bên trái để chữ thêm vào) margin-right(tạo khoảng trống giữa ảnh và chữ) -->
+                            <p> Họ và tên: <b>Phùng thị thúy hà  </b></p>
+                            <p> Giới tính: <b> Nữ </b></p>
+                            <p> Ngày sinh: <b>02/10/2007 </b></p>
+                            <p> Quê quán: <b> Hưng Yên </b></p>
+                            <p> E-mail: <b> thamt1197@gmail.com </b></p>
+                            <p> Điện thoại: <b> 0368225170</b></p>
+                            <p> Website: <b> <a href="https://qldaotao.utehy.edu.vn/DangNhap/Login">Link cá nhân</a></b></p>
+                            <table width="100%" style="margin-top: 20px;">
+                                
+                               <td valign="top"> <!--căn chỉnh theo chiều dọc -->
+                                <b> Sở thích </b>
+                                <ul style="list-style-type: disc;">
+                                    <li>Ngủ</li>
+                                    <li>Du lịch</li>
+                                    <li>Chơi game</li>
+                                </ul>
+                              </td>
+                               
+                               <td valign="top"> <!--căn chỉnh theo chiều dọc -->
+                                <b> Sở trường </b>
+                                <ul style="list-style-type: circle;">
+                                    <li>Thích đi du lịch</li>
+                                    <li>Hát hò</li>
+                                    <li>Xem điện thoại</li>
+                                </ul>
+                               </td>
+                               
+                               <td valign="top"> <!--căn chỉnh theo chiều dọc -->
+                                <b>Sở đoản</b>
+                                <ul style="list-style-type: square;">
+                                    <li>Ăn uống</li>
+                                    <li>Mua sắm </li>
+                                    <li>Chơi cùng các bạn</li>
+                                </ul>
+                                </td>
+                            </table>
+                            
+                        </div> <!--hết cột giữa-->
+                            <div class="cot-phai"> <!--cột phải-->
+                            <h2>HOẠT ĐỘNG</h2>
+                            <ul style="list-style-type: disc;">
+                                <li>Đi chùa</li>
+                                <li>Đi tràng an</li>
+                                <li>Đi phố cổ hoa lư</li>
+                            </ul>
+                            </div><!--hết cột phải-->
+                </div>  
+            </div> <!--trang giữa -->
+            <div class="chan-trang">
+                <p>Bản quyền thuộc về Phùng thị thúy hà</p>
+                <p>E-mail:thamt1197@gmail.com &#120404; Phone: 0368225170</p>
+            </div><!--hết chân trang-->
+       </div> 
+    </body>
+</html> 
